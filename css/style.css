@@ -945,4 +945,12 @@ p {
 .package_card:hover .blue_text span {
   color: white;
 }
+.dis_partent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding: 0px 66px;
+}
 /* ============ ofsional ================== */
