@@ -1,0 +1,939 @@
+/* ================= comon css start ================== */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,
+ol {
+  list-style-type: none;
+  padding-left: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  line-height: 0.8;
+}
+
+/* ================= comon css end ================== */
+
+/* =============== nav bar start ================== */
+
+.navbar {
+  padding: 32px 0px;
+}
+.navbar-nav {
+  display: flex;
+  column-gap: 49px;
+}
+.nav-item .nav-link {
+  color: var(--Podcast-Landing-Page-teks-2, #62636c);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: all linear 0.3s;
+}
+.nav-item .nav-link:hover {
+  color: #7678ed;
+}
+.nav_btn button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--Podcast-Landing-Page-blue, #7678ed);
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #7678ed;
+  transition: all linear 0.3s;
+}
+.nav_btn button:hover {
+  background-color: transparent;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+}
+
+/* =============== nav bar end ================== */
+
+/* =============== banner start ================== */
+#banner {
+  padding-top: 48px;
+  padding-bottom: 52px;
+}
+
+.banner_main_text h1 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px; /* 135.714% */
+}
+.banner_main_text p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+  margin-top: 16px;
+  padding-right: 200px;
+}
+.banner_button {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 69px;
+}
+.banner_button button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  background: var(--Podcast-Landing-Page-blue, #7678ed);
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #7678ed;
+  transition: all linear 0.3s;
+}
+.banner_button button:hover {
+  background-color: transparent;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+}
+.banner_counter {
+  margin-top: 56px;
+}
+.banner_counter_child_one {
+  column-gap: 8px;
+  max-width: 159px;
+}
+.banner_counter_child_one span {
+  color: var(--Podcast-Landing-Page-orange, #f18701);
+  font-family: Commissioner;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+}
+.banner_counter_child_one p {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: inline-block;
+}
+.banner_counter {
+  column-gap: 24px;
+}
+.banner_right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner_right {
+  position: relative;
+}
+.banner_p_img img {
+  position: absolute;
+  top: 252px;
+  left: -114px;
+  width: 240px;
+  height: 240px;
+}
+/* =============== banner end ================== */
+
+/* =============== pdcast start ========== */
+#podcast {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.podcast_heading h3 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.podcast_heading P {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding: 0px 60px;
+}
+.podcast_card {
+  padding: 24px 35px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  background: #fff;
+  box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+  margin-top: 48px;
+  cursor: pointer;
+}
+.podcast_contain img {
+  width: 88px;
+  height: 88px;
+  flex-shrink: 0;
+  margin-bottom: 32px;
+}
+.podcast_contain h4 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.podcast_contain p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+/* =============== pdcast end ========== */
+
+/* ======= podcast them start ======== */
+#podcast_theem {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.theme_contant h5 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.theme_contant p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  /* padding: 0px 48px; */
+  padding-right: 135px;
+}
+.main_mark_parent_m {
+  margin-top: 34px;
+}
+.pod_mark_parent {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-top: 24px;
+}
+.pod_mark_parent span {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.podcast_them_right img {
+  width: 100%;
+}
+/* ========== podcast them end ======== */
+
+/* =========== all podcast start ================ */
+
+#all_podcast {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.all_podcast_heading h5 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.all_podcast_heading p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding: 0px 8px;
+}
+.podcast_button button {
+  display: inline-flex;
+  padding: 16px 32px;
+  align-items: flex-start;
+  gap: 10px;
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+}
+.podcast_button button:hover {
+  background-color: #7678ed;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  color: white;
+}
+.all_podcast_button_flex {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+  margin-top: 40px;
+}
+.main_row {
+  margin-top: 48px;
+}
+.music_card {
+  padding: 24px;
+  background: #fff;
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+.music_card img {
+  width: 100%;
+  height: 234px;
+  object-fit: cover;
+}
+.play_right img {
+  width: 48px;
+  height: 48px;
+  flex-shrink: 0;
+}
+.play_parent {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 24px;
+}
+.play_left h6 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 155.556% */
+}
+.play_left p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  /* Commissioner/Commissioner 14 Regular */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.podcast_button_parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 48px;
+}
+.podcast_button_parent button {
+  padding: 16px 32px;
+  gap: 10px;
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+}
+.podcast_button_parent button:hover {
+  background-color: #7678ed;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  color: white;
+}
+/* =========== all podcast end ================ */
+
+/* ================== package start ====================== */
+
+#package {
+  display: flex;
+  padding: 48px 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.all_podcast_heading h5 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.all_podcast_heading h6 {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding: 0px 119px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+.packge_button_child {
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  justify-content: center;
+}
+.packge_button_child button {
+  padding: 16px 32px;
+  gap: 10px;
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+}
+.packge_button_child button:hover {
+  background-color: #7678ed;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  color: white;
+}
+.package_card {
+  text-align: center;
+  padding: 24px;
+  gap: 10px;
+  background: #fff;
+  box-shadow: 10px 32px 72px 0px rgba(15, 13, 35, 0.04);
+  margin-top: 48px;
+  transition: all linear 0.3s;
+  cursor: pointer;
+  transform: all 0.3s;
+}
+.package_card:hover {
+  color: white;
+  background-color: #7678ed;
+  transform: all 0.3s;
+}
+.package_card h3 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 38px; /* 118.75% */
+  transform: all 0.3s;
+}
+.package_card p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  margin-top: 24px;
+  margin-bottom: 24px;
+  padding: 0px 62px;
+  transform: all 0.3s;
+}
+.package_card .mony_parent {
+  display: flex;
+  /* align-items: center; */
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+.mony_parent span {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: right;
+  font-family: Commissioner;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px; /* 120% */
+  transform: all 0.3s;
+}
+.mony_parent b {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: right;
+
+  /* Commissioner/Commissioner 16 Regular */
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  transform: all 0.3s;
+}
+.package_dis_parent {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  margin-bottom: 28px;
+}
+.package_dis_parent i {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  background-color: #7678ed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: white;
+  font-size: 12px;
+  transform: all 0.3s;
+}
+.dis_partent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: center;
+  padding: 0px 94px;
+}
+.package_dis_parent span {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  transform: all 0.3s;
+}
+.package_last_butto button {
+  display: inline-flex;
+  height: 56px;
+  padding: 18px 0px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  color: var(--Podcast-Landing-Page-blue, #7678ed);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  width: 100%;
+  border: none;
+  border: 1px solid var(--Podcast-Landing-Page-blue, #7678ed);
+  /* background-color: #7678ed; */
+  background-color: transparent;
+  transform: all 0.3s;
+}
+.package_card:hover h3 {
+  color: white;
+}
+.package_card:hover p {
+  color: white;
+}
+.package_card:hover .mony_parent span {
+  color: white;
+}
+.package_card:hover .mony_parent b {
+  color: white;
+}
+.package_card:hover .dis_partent .blue_icon i {
+  background-color: white;
+  color: #7678ed;
+}
+.package_card:hover .package_last_butto button {
+  background-color: white;
+}
+/* ================== package end ====================== */
+
+/* ============= blog sction start ==================== */
+
+#blog {
+  display: flex;
+  padding: 48px 120px;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+  background: #fafafa;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  margin-bottom: 48px;
+}
+.bolg_heading h2 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  text-align: center;
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+.bolg_heading p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  text-align: center;
+
+  /* Commissioner/Commissioner 14 Desc */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  padding: 0px 50px;
+  margin-bottom: 48px;
+}
+.blog_card {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  background: #fff;
+}
+.blog_card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.blog_card h3 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 160% */
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.blog_card p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+
+  /* Commissioner/Commissioner 14 Desc */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  /* margin-bottom: 24px; */
+}
+.blog_button_parent {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  column-gap: 12px;
+}
+.blog_button_parent i {
+  font-size: 20px;
+  color: #f18701;
+}
+.blog_button_parent span {
+  color: var(--Podcast-Landing-Page-orange, #f18701);
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  color: #f18701;
+}
+.blog_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.blog_button button {
+  padding: 16px 32px;
+  gap: 10px;
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.blog_button button:hover {
+  background-color: #7678ed;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  color: white;
+}
+/* ============= blog sction end ==================== */
+
+/* ================ Testi start ==================== */
+#Testimunial {
+  padding-top: 48px;
+}
+.Testi_heading h5 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 145.833% */
+  text-transform: capitalize;
+}
+.Testi_button button {
+  padding: 16px 32px;
+  gap: 10px;
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px; /* 114.286% */
+  border: none;
+  border: 1px solid #ddd;
+  transition: all linear 0.3s;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+.Testi_button button:hover {
+  background-color: #7678ed;
+  color: #7678ed;
+  border: 1px solid #7678ed;
+  color: white;
+}
+.footer_main_contant {
+  display: inline-flex;
+  padding: 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  border: 1px solid #ddd;
+  background: #fff;
+  margin-top: 91px;
+}
+.f_c_i_p {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.card_reak_img {
+  stroke-width: 2px;
+  stroke: #ddd;
+  width: 298px;
+  height: 0px;
+  flex-shrink: 0;
+  background-color: #dddddd;
+  height: 1px;
+}
+.footer_card_title p {
+  color: var(--Podcast-Landing-Page-teks-2, #62636c);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 36px;
+  margin-bottom: 32px;
+  padding: 0px 19px;
+}
+.main_inner_info {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.mian_inner_img {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+}
+.mian_inner_img img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+.mian_inner_name h5 {
+  color: var(--Podcast-Landing-Page-teks-1, #13132c);
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.mian_inner_name p {
+  color: var(--Podcast-Landing-Page-teks-3, #898998);
+
+  /* Commissioner/Commissioner 16 Regular */
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 10px;
+}
+/* ================ Testi end ==================== */
+/* ============= footer start ====================== */
+#footer {
+  background-color: #13132c;
+  padding-top: 132px;
+  margin-top: -136px;
+  width: 100%;
+}
+.slider_button {
+  margin-top: 52px;
+  margin-bottom: 76px;
+}
+.slid_child_one {
+  width: 56px;
+  height: 56px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1px solid white;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all linear 0.3s;
+}
+.slid_child_one i {
+  font-size: 25px;
+}
+.slid_child_one:hover {
+  background-color: white;
+  color: #13132c;
+}
+.slider_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 32px;
+}
+.footer_logo_pra p {
+  color: rgba(255, 255, 255, 0.72);
+  font-family: Commissioner;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  padding-right: 44px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.footer_munu h3 {
+  color: #fff;
+  font-family: Commissioner;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-bottom: 32px;
+}
+.footer_munu {
+  text-align: left;
+}
+.footer_munu ul li {
+  margin-bottom: 24px;
+}
+.footer_munu ul li a {
+  color: rgba(255, 255, 255, 0.72);
+
+  /* Commissioner/Commissioner 14 Regular */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.mail_contact {
+  display: flex;
+  align-items: center;
+  column-gap: 8px;
+  margin-bottom: 24px;
+}
+
+.mail_contact i {
+  font-size: 15px;
+  color: white;
+}
+.mail_contact a {
+  color: rgba(255, 255, 255, 0.72);
+
+  /* Commissioner/Commissioner 14 Regular */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+.footer_reka_last {
+  width: 100%;
+  stroke-width: 1px;
+  stroke: var(--Podcast-Landing-Page-line, rgba(255, 255, 255, 0.64));
+  background-color: #ffffffa3;
+  height: 1px;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+.copy {
+  color: #fff;
+  text-align: center;
+
+  /* Commissioner/Commissioner 14 Regular */
+  font-family: Commissioner;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 114.286% */
+}
+/* ============= footer end ====================== */
