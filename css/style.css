@@ -943,3 +943,9 @@ p {
   line-height: 16px; /* 114.286% */
 }
 /* ============= footer end ====================== */
+
+/* ============ ofsional ================== */
+.package_card:hover .blue_text span {
+  color: white;
+}
+/* ============ ofsional ================== */

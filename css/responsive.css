@@ -1,4 +1,641 @@
-@media (max-width: 576px) {
+@media (min-width: 1200px) and (max-width: 1400px) {
+  .banner_main_text h1 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 24px;
+  }
+  .banner_main_text p {
+    padding-right: 0px;
+  }
+  .banner_main_text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .nav-item .nav-link:hover {
+    background-color: rgb(11, 11, 235);
+    color: wheat;
+  }
+  .nav_btn {
+    text-align: center;
+    transition: all linear 0.3s;
+    color: white;
+  }
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 52px;
+  }
+  .banner_button {
+    justify-content: center;
+  }
+  .banner_counter_child_one span {
+    font-size: 36px;
+  }
+  .banner_counter_child_one p {
+    font-size: 14.25px;
+  }
+  .banner_counter {
+    column-gap: 24px;
+    justify-content: space-between;
+  }
+  .podcast_heading h3 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  .Them_podcast {
+    flex-direction: column-reverse;
+  }
+  .theme_contant h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 0px 7px;
+    margin-top: 24px;
+  }
+  .theme_contant p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 52px;
+    margin-top: 16px;
+  }
+  .mark_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_mark_parent_m {
+    margin-top: -3px;
+    margin-bottom: 25px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .all_podcast_heading p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+
+    /* Commissioner/Commissioner 14 Desc */
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .all_podcast_button_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .podcast_button button {
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+    width: 144px;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .all_podcast_button_flex {
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .main_padcst_ja {
+    margin-top: -44px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  #package {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .all_podcast_heading h6 {
+    padding: 0px;
+  }
+  .package_card h3 {
+    font-size: 27px;
+  }
+  .package_card p {
+    font-size: 14px;
+  }
+  .package_card p {
+    padding: 0px 23px;
+  }
+  .dis_partent {
+    padding: 0px 55px;
+  }
+  .try_agin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #blog {
+    padding: 0px;
+  }
+  .bolg_heading h2 {
+    font-size: 24px;
+    margin-top: 62px;
+    line-height: 30px;
+  }
+  .bolg_heading p {
+    padding: 0px;
+  }
+  .footer_main_contant {
+    width: 100%;
+  }
+  .Testi_heading h5 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 23px;
+    text-align: center;
+  }
+  .footer_main_contant {
+    margin-top: 32px;
+  }
+  .footer_reka_last {
+    margin-top: 0px;
+  }
+  .banner_counter {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 13px 0px;
+  }
+  .Testi_heading h5 {
+    text-align: center;
+  }
+  .main_padcst_ja {
+    margin-top: 0px;
+  }
+  .package_dis_parent span {
+    font-size: 15px;
+  }
+  .md_footer {
+    justify-content: space-between;
+  }
+  .footer_munu ul li a {
+    font-size: 13px;
+  }
+  .banner_main_text h1 {
+    text-align: left;
+    padding: 0px;
+  }
+  .banner_main_text p {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 16px;
+  }
+  .banner_button {
+    justify-content: start;
+  }
+  .banner_counter {
+    justify-content: start;
+  }
+  .podcast_contain h4 {
+    font-size: 15px;
+  }
+  .podcast_contain p {
+    font-size: 10px;
+  }
+  .Them_podcast {
+    flex-direction: row;
+  }
+  .theme_contant h5 {
+    font-size: 27px;
+    text-align: left;
+  }
+  .theme_contant p {
+    text-align: left;
+    padding: 0px 6px;
+  }
+  .mark_inner {
+    justify-content: start;
+  }
+  .all_podcast_button_flex {
+    flex-wrap: nowrap;
+  }
+  .play_left h6 {
+    font-size: 13px;
+  }
+  .play_left p {
+    font-size: 13px;
+  }
+  .package_dis_parent span {
+    font-size: 11px;
+  }
+  .banner_main_text h1 {
+    font-size: 35px;
+    line-height: 1.3;
+  }
+  .banner_main_text p {
+    padding-right: 102px;
+  }
+  .podcast_contain p {
+    font-size: 12px;
+  }
+}
+@media (min-width: 992.99px) and (max-width: 1199px) {
+  .banner_main_text h1 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 24px;
+  }
+  .banner_main_text p {
+    padding-right: 0px;
+  }
+  .banner_main_text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .nav-item .nav-link:hover {
+    background-color: rgb(11, 11, 235);
+    color: wheat;
+  }
+  .nav_btn {
+    text-align: center;
+    transition: all linear 0.3s;
+    color: white;
+  }
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 52px;
+  }
+  .banner_button {
+    justify-content: center;
+  }
+  .banner_counter_child_one span {
+    font-size: 36px;
+  }
+  .banner_counter_child_one p {
+    font-size: 14.25px;
+  }
+  .banner_counter {
+    column-gap: 24px;
+    justify-content: space-between;
+  }
+  .podcast_heading h3 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  .Them_podcast {
+    flex-direction: column-reverse;
+  }
+  .theme_contant h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 0px 7px;
+    margin-top: 24px;
+  }
+  .theme_contant p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 52px;
+    margin-top: 16px;
+  }
+  .mark_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_mark_parent_m {
+    margin-top: -3px;
+    margin-bottom: 25px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .all_podcast_heading p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+
+    /* Commissioner/Commissioner 14 Desc */
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .all_podcast_button_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .podcast_button button {
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+    width: 144px;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .all_podcast_button_flex {
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .main_padcst_ja {
+    margin-top: -44px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  #package {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .all_podcast_heading h6 {
+    padding: 0px;
+  }
+  .package_card h3 {
+    font-size: 27px;
+  }
+  .package_card p {
+    font-size: 14px;
+  }
+  .package_card p {
+    padding: 0px 23px;
+  }
+  .dis_partent {
+    padding: 0px 55px;
+  }
+  .try_agin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #blog {
+    padding: 0px;
+  }
+  .bolg_heading h2 {
+    font-size: 24px;
+    margin-top: 62px;
+    line-height: 30px;
+  }
+  .bolg_heading p {
+    padding: 0px;
+  }
+  .footer_main_contant {
+    width: 100%;
+  }
+  .Testi_heading h5 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 23px;
+    text-align: center;
+  }
+  .footer_main_contant {
+    margin-top: 32px;
+  }
+  .footer_reka_last {
+    margin-top: 0px;
+  }
+  .banner_counter {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 13px 0px;
+  }
+  .Testi_heading h5 {
+    text-align: center;
+  }
+  .main_padcst_ja {
+    margin-top: 0px;
+  }
+  .package_dis_parent span {
+    font-size: 15px;
+  }
+  .md_footer {
+    justify-content: space-between;
+  }
+  .footer_munu ul li a {
+    font-size: 13px;
+  }
+  .banner_main_text h1 {
+    text-align: left;
+    padding: 0px;
+  }
+  .banner_main_text p {
+    font-size: 14px;
+    text-align: left;
+    margin-top: 16px;
+  }
+  .banner_button {
+    justify-content: start;
+  }
+  .banner_counter {
+    justify-content: start;
+  }
+  .podcast_contain h4 {
+    font-size: 15px;
+  }
+  .podcast_contain p {
+    font-size: 10px;
+  }
+  .Them_podcast {
+    flex-direction: row;
+  }
+  .theme_contant h5 {
+    font-size: 27px;
+    text-align: left;
+  }
+  .theme_contant p {
+    text-align: left;
+    padding: 0px 6px;
+  }
+  .mark_inner {
+    justify-content: start;
+  }
+  .all_podcast_button_flex {
+    flex-wrap: nowrap;
+  }
+  .play_left h6 {
+    font-size: 13px;
+  }
+  .play_left p {
+    font-size: 13px;
+  }
+  .package_dis_parent span {
+    font-size: 11px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
   .banner_main_text h1 {
     color: var(--Podcast-Landing-Page-teks-1, #13132c);
     font-family: Commissioner;
@@ -89,5 +726,692 @@
   }
   .Them_podcast {
     flex-direction: column-reverse;
+  }
+  .theme_contant h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 0px 7px;
+    margin-top: 24px;
+  }
+  .theme_contant p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 52px;
+    margin-top: 16px;
+  }
+  .mark_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_mark_parent_m {
+    margin-top: -3px;
+    margin-bottom: 25px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .all_podcast_heading p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+
+    /* Commissioner/Commissioner 14 Desc */
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .all_podcast_button_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .podcast_button button {
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+    width: 144px;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .all_podcast_button_flex {
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .main_padcst_ja {
+    margin-top: -44px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  #package {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .all_podcast_heading h6 {
+    padding: 0px;
+  }
+  .package_card h3 {
+    font-size: 27px;
+  }
+  .package_card p {
+    font-size: 14px;
+  }
+  .package_card p {
+    padding: 0px 23px;
+  }
+  .dis_partent {
+    padding: 0px 55px;
+  }
+  .try_agin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #blog {
+    padding: 0px;
+  }
+  .bolg_heading h2 {
+    font-size: 24px;
+    margin-top: 62px;
+    line-height: 30px;
+  }
+  .bolg_heading p {
+    padding: 0px;
+  }
+  .footer_main_contant {
+    width: 100%;
+  }
+  .Testi_heading h5 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 23px;
+    text-align: center;
+  }
+  .footer_main_contant {
+    margin-top: 32px;
+  }
+  .footer_reka_last {
+    margin-top: 0px;
+  }
+  .banner_counter {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 13px 0px;
+  }
+  .Testi_heading h5 {
+    text-align: center;
+  }
+  .main_padcst_ja {
+    margin-top: 0px;
+  }
+  .package_dis_parent span {
+    font-size: 15px;
+  }
+  .md_footer {
+    justify-content: space-between;
+  }
+  .footer_munu ul li a {
+    font-size: 13px;
+  }
+}
+@media (min-width: 576.99px) and (max-width: 767.99px) {
+  .banner_main_text h1 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 24px;
+  }
+  .banner_main_text p {
+    padding-right: 0px;
+  }
+  .banner_main_text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .nav-item .nav-link:hover {
+    background-color: rgb(11, 11, 235);
+    color: wheat;
+  }
+  .nav_btn {
+    text-align: center;
+    transition: all linear 0.3s;
+    color: white;
+  }
+  .banner_order {
+    flex-direction: column-reverse;
+  }
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 52px;
+  }
+  .banner_button {
+    justify-content: center;
+  }
+  .banner_counter_child_one span {
+    font-size: 36px;
+  }
+  .banner_counter_child_one p {
+    font-size: 14.25px;
+  }
+  .banner_counter {
+    column-gap: 24px;
+    justify-content: space-between;
+  }
+  .podcast_heading h3 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  .Them_podcast {
+    flex-direction: column-reverse;
+  }
+  .theme_contant h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 0px 7px;
+    margin-top: 24px;
+  }
+  .theme_contant p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 52px;
+    margin-top: 16px;
+  }
+  .mark_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_mark_parent_m {
+    margin-top: -3px;
+    margin-bottom: 25px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .all_podcast_heading p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+
+    /* Commissioner/Commissioner 14 Desc */
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .all_podcast_button_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .podcast_button button {
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+    width: 144px;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .all_podcast_button_flex {
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .main_padcst_ja {
+    margin-top: -44px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  #package {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .all_podcast_heading h6 {
+    padding: 0px;
+  }
+  .package_card h3 {
+    font-size: 27px;
+  }
+  .package_card p {
+    font-size: 14px;
+  }
+  .package_card p {
+    padding: 0px 23px;
+  }
+  .dis_partent {
+    padding: 0px 55px;
+  }
+  .try_agin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #blog {
+    padding: 0px;
+  }
+  .bolg_heading h2 {
+    font-size: 24px;
+    margin-top: 62px;
+    line-height: 30px;
+  }
+  .bolg_heading p {
+    padding: 0px;
+  }
+  .footer_main_contant {
+    width: 100%;
+  }
+  .Testi_heading h5 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 23px;
+    text-align: center;
+  }
+  .footer_main_contant {
+    margin-top: 32px;
+  }
+  .footer_reka_last {
+    margin-top: 0px;
+  }
+  .banner_counter {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 13px 0px;
+  }
+  .Testi_heading h5 {
+    text-align: center;
+  }
+}
+@media (max-width: 575.99px) {
+  .banner_main_text h1 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 24px;
+  }
+  .banner_main_text p {
+    padding-right: 0px;
+  }
+  .banner_main_text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .nav-item .nav-link:hover {
+    background-color: rgb(11, 11, 235);
+    color: wheat;
+  }
+  .nav_btn {
+    text-align: center;
+    transition: all linear 0.3s;
+    color: white;
+  }
+  .banner_order {
+    flex-direction: column-reverse;
+  }
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 52px;
+  }
+  .banner_button {
+    justify-content: center;
+  }
+  .banner_counter_child_one span {
+    font-size: 36px;
+  }
+  .banner_counter_child_one p {
+    font-size: 14.25px;
+  }
+  .banner_counter {
+    column-gap: 24px;
+    justify-content: space-between;
+  }
+  .podcast_heading h3 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  .Them_podcast {
+    flex-direction: column-reverse;
+  }
+  .theme_contant h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+    padding: 0px 7px;
+    margin-top: 24px;
+  }
+  .theme_contant p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px 52px;
+    margin-top: 16px;
+  }
+  .mark_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .main_mark_parent_m {
+    margin-top: -3px;
+    margin-bottom: 25px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .all_podcast_heading p {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+
+    /* Commissioner/Commissioner 14 Desc */
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 171.429% */
+  }
+  .all_podcast_button_flex {
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+  }
+  .podcast_button button {
+    padding: 16px 32px;
+    gap: 10px;
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 16px;
+    border: none;
+    border: 1px solid #ddd;
+    transition: all linear 0.3s;
+    width: 144px;
+    text-align: center;
+    margin-bottom: 16px;
+    display: block;
+  }
+  .all_podcast_button_flex {
+    justify-content: center;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  .navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+  }
+  .main_padcst_ja {
+    margin-top: -44px;
+  }
+  .all_podcast_heading h5 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  #package {
+    display: flex;
+    padding: 0px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  .all_podcast_heading h6 {
+    padding: 0px;
+  }
+  .package_card h3 {
+    font-size: 27px;
+  }
+  .package_card p {
+    font-size: 14px;
+  }
+  .package_card p {
+    padding: 0px 23px;
+  }
+  .dis_partent {
+    padding: 0px 55px;
+  }
+  .try_agin {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #blog {
+    padding: 0px;
+  }
+  .bolg_heading h2 {
+    font-size: 24px;
+    margin-top: 62px;
+    line-height: 30px;
+  }
+  .bolg_heading p {
+    padding: 0px;
+  }
+  .footer_main_contant {
+    width: 100%;
+  }
+  .Testi_heading h5 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px 23px;
+    text-align: center;
+  }
+  .footer_main_contant {
+    margin-top: 32px;
+  }
+  .footer_reka_last {
+    margin-top: 0px;
+  }
+  .banner_counter {
+    justify-content: center;
+  }
+  .navbar {
+    padding: 13px 0px;
   }
 }
