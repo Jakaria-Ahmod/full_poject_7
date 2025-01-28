@@ -1,0 +1,93 @@
+@media (max-width: 576px) {
+  .banner_main_text h1 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 0px 35px;
+    margin-top: 24px;
+  }
+  .banner_main_text p {
+    padding-right: 0px;
+  }
+  .banner_main_text p {
+    font-size: 18px;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .navbar-toggler {
+    box-shadow: none;
+  }
+  .nav-item .nav-link {
+    text-align: center;
+    transition: all linear 0.3s;
+  }
+  .nav-item .nav-link:hover {
+    background-color: rgb(11, 11, 235);
+    color: wheat;
+  }
+  .nav_btn {
+    text-align: center;
+    transition: all linear 0.3s;
+    color: white;
+  }
+  .banner_order {
+    flex-direction: column-reverse;
+  }
+  #banner {
+    padding-top: 130px;
+    padding-bottom: 52px;
+  }
+  .banner_button {
+    justify-content: center;
+  }
+  .banner_counter_child_one span {
+    font-size: 36px;
+  }
+  .banner_counter_child_one p {
+    font-size: 14.25px;
+  }
+  .banner_counter {
+    column-gap: 24px;
+    justify-content: space-between;
+  }
+  .podcast_heading h3 {
+    color: var(--Podcast-Landing-Page-teks-1, #13132c);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px; /* 150% */
+    text-transform: capitalize;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+  }
+  .podcast_heading P {
+    color: var(--Podcast-Landing-Page-teks-3, #898998);
+    text-align: center;
+    font-family: Commissioner;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0px;
+    margin-top: 18px;
+    margin-bottom: 32px;
+  }
+  .Them_podcast {
+    flex-direction: column-reverse;
+  }
+}

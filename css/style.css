@@ -29,6 +29,12 @@ p {
 
 .navbar {
   padding: 32px 0px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 999;
 }
 .navbar-nav {
   display: flex;
@@ -72,7 +78,7 @@ p {
 
 /* =============== banner start ================== */
 #banner {
-  padding-top: 48px;
+  padding-top: 200px;
   padding-bottom: 52px;
 }
 
